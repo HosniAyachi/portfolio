@@ -16,7 +16,7 @@ export default class Introduction extends Component {
                         <div className="desc">
                           <h1>Hello world! <br />I'm Hosni</h1>
                           <h3>Have a look at my CV!</h3>
-                          <p><a className="btn btn-primary btn-learn" href="https://pdfhost.io/v/NPo~dRe~d_Hosni_Ayachi" target="_blank" rel="noopener noreferrer">English<i className="icon-download4" /></a><a className="btn btn-primary btn-learn" href="https://pdfhost.io/v/i7MKIuS6m_Hosni_Ayachi" target="_blank" rel="noopener noreferrer">French<i className="icon-download4" /></a></p>
+                          <p><a className="btn btn-primary btn-learn" href="https://pdfhost.io/v/L8C4oz3jh_Hosni_Ayachi_ENGLISH" target="_blank" rel="noopener noreferrer">English<i className="icon-download4" /></a><a className="btn btn-primary btn-learn" href="https://pdfhost.io/v/kdZQyDHdI_Hosni_Ayachi_FRENCH" target="_blank" rel="noopener noreferrer">French<i className="icon-download4" /></a></p>
                         </div>
                       </div>
                     </div>
