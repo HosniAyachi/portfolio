@@ -5,10 +5,10 @@ export default class Sidebar extends Component {
     return (
       <div>
         <div>
-          <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
+          <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"><i /></nav>
           <aside id="colorlib-aside" className="border js-fullheight">
             <div className="text-center">
-              <div className="author-img" style={{backgroundImage: 'url(images/me.jpg)'}} />
+              <div className="author-img" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/me.jpg)` }} />
               <h1 id="colorlib-logo"><a href="index.html">Hosni AYACHI</a></h1>
               <span className="email"><i className="icon-mail"></i> h.hosniayachi@gmail.com</span>
             </div><br />
@@ -30,8 +30,8 @@ export default class Sidebar extends Component {
             <div className="colorlib-footer">
               
               <p><small>
-                <b>Open</b> for a permanent position as Data Analyst, starting from January 2022 <br />
-                <b>Ouvert</b> à un poste en CDI en tant que Data Analyst à partir de Janvier 2022 <br/>
+                <b>Open</b> for a permanent position as Data Analyst, starting from February 2025 <br />
+                <b>Ouvert</b> à un poste en CDI en tant que Data Analyst à partir de Février 2025 <br/>
                 
               </small></p>
               <p><small>
