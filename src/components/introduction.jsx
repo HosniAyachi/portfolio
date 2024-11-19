@@ -16,7 +16,7 @@ export default class Introduction extends Component {
                         <div className="desc">
                           <h1>Hello world! <br />I'm Hosni</h1>
                           <h3>Have a look at my CV!</h3>
-                          <p><a className="btn btn-primary btn-learn" href="https://pdfhost.io/v/L8C4oz3jh_Hosni_Ayachi_ENGLISH" target="_blank" rel="noopener noreferrer">English<i className="icon-download4" /></a><a className="btn btn-primary btn-learn" href="https://pdfhost.io/v/kdZQyDHdI_Hosni_Ayachi_FRENCH" target="_blank" rel="noopener noreferrer">French<i className="icon-download4" /></a></p>
+                          <p><a className="btn btn-primary btn-learn" href="https://pdfhost.io/v/ZQdhEOkVE_Hosni_Ayachi_ENGLISH" target="_blank" rel="noopener noreferrer">English<i className="icon-download4" /></a></p>
                         </div>
                       </div>
                     </div>
@@ -30,7 +30,8 @@ export default class Introduction extends Component {
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                         <div className="desc">
-                          <h1>Junior<br /> Data Analyst</h1>
+                          <h1>Data Analyst</h1>
+                          <h4>with over 3 years of experience.</h4>
                         </div>
                       </div>
                     </div>

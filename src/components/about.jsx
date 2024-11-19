@@ -1,13 +1,8 @@
 import React, { Component } from "react";
+// import "./About.css"; // Make sure to link your custom CSS
 
 export default class About extends Component {
   render() {
-    const imgstyle = { 
-        height: "100%",
-        width: "100%",
-        objectFit: "contain",
-
-      };
     return (
       <div>
         <section className="colorlib-about" data-section="about">
@@ -22,31 +17,31 @@ export default class About extends Component {
                     <div className="about-desc">
                       <span className="heading-meta">About me</span>
                       <h2 className="colorlib-heading">Who Am I?</h2>
-
                       <p>
-                        I am a freshly graduated Data Scienctist from the Gustave Eiffel
-                        University (as part of a double degree mobility program
-                        with ESPRIT, Tunisia).
+                        I am a motivated Data Analyst with over three years of
+                        experience in fintech SaaS environments. I hold an
+                        engineering diploma in Data Science from ESPRIT,
+                        Tunisia, and an MSc. in Intelligent Systems and
+                        Applications from Université Gustave Eiffel, France, as
+                        part of a double-degree mobility program.
                       </p>
                       <p>
-                        Passionate and driven, I am always looking forward to
-                        new learning opportunities and challenges being a
-                        problem solving maniac. I am autonomous, proactive and a
-                        team player. I have worked with many teams on different
-                        projects before and most of the people I have worked
-                        with say that I am a good listener, decision maker and a
-                        cheerful addition to the working environment which
-                        pushes them forward.
-                      </p>
-                      <p>
-                        I would be very much interested in working on ambitious
-                        projects and learning from it within a very supportive
-                        and professional environment.{" "}
+                        Passionate about data, I thrive on solving complex
+                        problems through automation, analysis, and
+                        visualization. I am proficient in Python, SQL, and R,
+                        and skilled in leveraging tools like Databricks and
+                        Power BI/Tableau. My experience includes developing an automated
+                        annotation tool, extending multilingual taxonomy, and
+                        designing a Source Reliability Score.
                       </p>
                     </div>
                   </div>
                   <div className="col-md-3">
-                  <img src="https://i.giphy.com/media/bcKmIWkUMCjVm/giphy.gif" style={imgstyle}></img>
+                    <img
+                      src="https://i.giphy.com/media/bcKmIWkUMCjVm/giphy.gif"
+                      alt=""
+                      className="profile-img"
+                    />
                   </div>
                 </div>
               </div>
@@ -61,54 +56,93 @@ export default class About extends Component {
                 data-animate-effect="fadeInLeft"
               >
                 <span className="heading-meta">What I do?</span>
-                <h2 className="colorlib-heading">
-                  Here are some of my expertise
-                </h2>
+                <h2 className="colorlib-heading">My Data Analysis Expertise</h2>
               </div>
             </div>
             <div className="row row-pt-md">
-              <div className="col-md-4 text-center animate-box">
+              <div className="col-md-6 text-center animate-box">
                 <div className="desc">
-                  <h3>Data Science</h3>
-                  <p>Data Visualization tools: Tableau, Excel</p>
-                  <p>Unsupervised Learning: ACP, KMeans...</p>
+                  <h3>Data Analysis & Insights</h3>
                   <p>
-                    Supervised Learning: KNN, SVM, Linear/Logistic Regression...
+                    <strong>Programming Languages:</strong> Python (Pandas,
+                    NumPy, Scikit-Learn)
                   </p>
-                  <p>Deep Learning: (ANN, CNN, RNN, LSTM...)</p>
+                  <p>
+                    <strong>Data Exploration:</strong> Statistical Analysis,
+                    Feature Engineering, Data Cleaning
+                  </p>
+                  <p>
+                    <strong>Visualization:</strong> Tableau, Power BI,
+                    Matplotlib
+                  </p>
                 </div>
               </div>
-              <div className="col-md-4 text-center animate-box">
+              <div className="col-md-6 text-center animate-box">
                 <div className="desc">
-                  <h3>Theory</h3>
-                  <p>Graph Theory</p>
+                  <h3>Data Management & Automation</h3>
                   <p>
-                  Markov Chains
+                    <strong>Data Warehousing:</strong> AWS S3, Athena for
+                    large-scale data storage & querying
                   </p>
-                  <p>Linear Algebra</p>
-                  <p>Linear/Non-Linear Programming</p>
-                  <p>Time Series</p>
-                </div>
-              </div>
-              <div className="col-md-4 text-center animate-box">
-                <div className="desc">
-                  <h3>Data & Programming</h3>
-                  <p>Relational Database: SQL</p>
-                  <p>Programming Languages: Python, R, Java, Scala, HTML/CSS, JavaScript</p>
                   <p>
-                    Non-Relational Database: MongoDB, Cassandra, Neo4j
+                    <strong>Relational Databases:</strong> SQL (Advanced
+                    Queries, Joins, Indexing)
                   </p>
-                  <p>Big Data: Apache Spark</p>
+                  <p>
+                    <strong>Data Platforms:</strong> Databricks, Apache Spark
+                  </p>
                 </div>
               </div>
             </div>
-            <div className="row row-pt-md">
-            <div className="col-md-2 image-center animate-box" ><img src="images/skill1.png" style={imgstyle}></img></div>
-            <div className="col-md-2 image-center animate-box" ><img src="images/skill2.png" style={imgstyle}></img></div>
-            <div className="col-md-2 image-center animate-box" ><img src="images/skill3.png" style={imgstyle}></img></div>
-            <div className="col-md-2 image-center animate-box" ><img src="images/skill4.png" style={imgstyle}></img></div>
-            <div className="col-md-2 image-center animate-box" ><img src="images/skill5.png" style={imgstyle}></img></div>
-            <div className="col-md-2 image-center animate-box" ><img src="images/skill6.png" style={imgstyle}></img></div>
+            <div className="row row-pt-md logo-row">
+              <div className="col-md-2 image-center animate-box">
+                <div className="image-wrapper">
+                  <img
+                    src={`${process.env.PUBLIC_URL}/images/skill1.png`}
+                    alt="Python"
+                  />
+                </div>
+              </div>
+              <div className="col-md-2 image-center animate-box">
+                <div className="image-wrapper">
+                  <img
+                    src={`${process.env.PUBLIC_URL}/images/skill2.png`}
+                    alt="SQL"
+                  />
+                </div>
+              </div>
+              <div className="col-md-2 image-center animate-box">
+                <div className="image-wrapper">
+                  <img
+                    src={`${process.env.PUBLIC_URL}/images/skill3.png`}
+                    alt="Databricks"
+                  />
+                </div>
+              </div>
+              <div className="col-md-2 image-center animate-box">
+                <div className="image-wrapper">
+                  <img
+                    src={`${process.env.PUBLIC_URL}/images/skill4.png`}
+                    alt="AWS"
+                  />
+                </div>
+              </div>
+              <div className="col-md-2 image-center animate-box">
+                <div className="image-wrapper">
+                  <img
+                    src={`${process.env.PUBLIC_URL}/images/skill5.png`}
+                    alt="Tableau"
+                  />
+                </div>
+              </div>
+              <div className="col-md-2 image-center animate-box">
+                <div className="image-wrapper">
+                  <img
+                    src={`${process.env.PUBLIC_URL}/images/skill6.png`}
+                    alt="Power BI"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </section>
